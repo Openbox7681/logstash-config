@@ -2,7 +2,7 @@
 Notes of Logstash Config
 ========================
 
-### Migrating Elasticsearch to Another Elasticsearch
+### Migrating Elasticsearch to Another Elasticsearch (sample-01.config)
 	input {
   		elasticsearch {
    			hosts => "192.168.56.10:9200"
