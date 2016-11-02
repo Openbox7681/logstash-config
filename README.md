@@ -18,3 +18,5 @@ Notes of Logstash Config
 			document_id => "%{[@metadata][_id]}"
 				}
 		}
+
+### Migrate Data with Range Query
