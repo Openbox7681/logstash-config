@@ -2,21 +2,15 @@
 Notes of Logstash Config
 ========================
 
-### Migrating Elasticsearch to Another Elasticsearch (sample-01.config)
-	input {
-  		elasticsearch {
-   			hosts => "192.168.56.10:9200"
-	 		index => "*" 
- 			docinfo => true
-  				}
-		}
+1. copy data from ES1 to ES2.
+2. range query
+3. twitter crawler
+4. twitter crawler with kafka
+5. grok - extract data & add field
 
-	output {
-		elasticsearch { hosts => ["localhost:9200"] 
-			index => "%{[@metadata][_index]}"
-			document_type => "%{[@metadata][_type]}"
-			document_id => "%{[@metadata][_id]}"
-				}
-		}
 
-### Migrate Data with Range Query
+
+
+
+
+
