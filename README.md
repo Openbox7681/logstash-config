@@ -7,7 +7,7 @@ Notes of Logstash Config
 3. twitter crawler
 4. twitter crawler with kafka
 5. grok - extract data & add field
-
+6. file to es
 
 
 
