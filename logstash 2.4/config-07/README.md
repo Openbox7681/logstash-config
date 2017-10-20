@@ -24,6 +24,5 @@ output {
       path => 'log.csv'
   }
 }
-~        
 ```
 
